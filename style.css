@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/timer.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1.title {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.countdown-container {
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.countdown-items {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.3rem;
+}
+
+.holidays {
+  display: flex;
+}
+
+.holidays button {
+  text-decoration: none;
+  margin: 20px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #000;
+  transition: all 0.4s ease-in-out;
+}
+
+.holidays button:hover {
+  background-color: #ada;
+}

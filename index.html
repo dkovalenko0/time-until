@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Time until</title>
+  </head>
+  <body>
+    <h1 class="title"></h1>
+
+    <!-- <div class="select-container">
+      <select name="holidays" id="holidays">
+        <option selected disabled>Choose holiday</option>
+        <option value="newYear" data-date="01/11/2021 02:00:00 AM">
+          New Year
+        </option>
+        <option value="christmas" data-date="06/05/2021 02:00:00 AM">
+          Christmas
+        </option>
+      </select>
+    </div> -->
+
+    <div class="holidays">
+      <button type="button" value="newYear" data-date="1 Jan 2021">
+        New Year
+      </button>
+      <button type="button" value="christmas" data-date="7 Jan 2021">
+        Christmas
+      </button>
+      <button type="button" value="women-day" data-date="8 March 2021">
+        International Women's Day
+      </button>
+      <button type="button" value="easter" data-date="19 April 2021">
+        Easter
+      </button>
+      <button type="button" value="victory-day" data-date="9 May 2021">
+        Victory Day
+      </button>
+    </div>
+
+    <div class="countdown-container">
+      <div class="countdown-items">
+        <div class="countdown-el days-c">
+          <p class="big-text" id="days">0</p>
+          <span>days</span>
+        </div>
+
+        <div class="countdown-el hours-c">
+          <p class="big-text" id="hours">0</p>
+          <span>hours</span>
+        </div>
+
+        <div class="countdown-el mins-c">
+          <p class="big-text" id="mins">0</p>
+          <span>mins</span>
+        </div>
+
+        <div class="countdown-el seconds-c">
+          <p class="big-text" id="seconds">0</p>
+          <span>seconds</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
